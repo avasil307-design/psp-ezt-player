@@ -1,6 +1,6 @@
 TARGET = EZTPlayer
 OBJS = src/fb.o src/text.o src/theme.o src/easing.o src/library.o src/ui.o src/app.o \
-       src/assets.o src/assets_data.o src/main_psp.o
+       src/assets.o src/assets_data.o src/mp4.o src/main_psp.o
 INCDIR = include assets
 CFLAGS = -O2 -G0 -Wall -Wextra -std=c99 -D__PSP__ $(addprefix -I,$(INCDIR))
 CXXFLAGS = $(CFLAGS)
